@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        class cube{
+            height;
+            width;
+            length;
+            set_height(){
+            this.height=6;
+        }
+            set_width(){
+                this.width=6;
+            }
+            set_length(){
+                this.length=6;
+            }
+            get_height(){
+                documnet.write(this.height);
+            }
+            get_width(){
+                document.write(this.width);
+            }
+            get_length(){
+                document.write(this.length);
+            }
+        }
+        var parametrebi=new cube();
+        parametrebi.set_height();
+        parametrebi.set_width();
+        parametrebi.set_length();
+        document.write("სიმაღლე:"+parametrebi.height+"<br>");
+        document.write("სიგანე:"+parametrebi.width+"<br>");
+        document.write("სიგრძე:"+parametrebi.length)
+    </script>
+</head>
+<body>
+</body>
+</html>
